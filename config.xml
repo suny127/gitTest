@@ -1,0 +1,15 @@
+<project>
+    <!--配置参数化，配置可持久化，框架启动时让其加载到变量中，只加载一次即可-->
+    <database>
+        <host>139.199.132.220</host>
+        <user>root</user>
+        <password>123456</password>
+        <dbname>event</dbname>
+    </database>
+
+    <cases>
+        <Login-login01/>
+        <Login-login02/>
+        <AddEvent-addEvent01/>
+    </cases>
+</project>
